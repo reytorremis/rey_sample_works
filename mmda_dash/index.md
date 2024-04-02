@@ -138,7 +138,7 @@ on pivot_table.City = x.City
 order by total_number_of_incidents desc
 ```
 
-![number_of_incidents_per_year](<Get_Number_of_Incidence_pe_ year-1.png>)
+![number_of_incidents_per_year](<Get_Number_of_Incidence_pe_ year.png>)
 
 
 ### Window Time Analysis of Incidents Happening Month and Year
@@ -187,7 +187,7 @@ coalesce(SUM(no_of_incident),0) as total_no_of_incident
 from reported_incident_per_time_window) x 
 ```
 
-![Window Time Analysis of Incidents Year and Month](Window_Time_Analysis_of_Incidents_Happening_Month_and_Year-1.png)
+![Window Time Analysis of Incidents Year and Month](Window_Time_Analysis_of_Incidents_Happening_Month_and_Year.png)
 
 ### Window Time Analysis of Incidents Happening Month Reported
 
@@ -237,6 +237,6 @@ where month_reported like '%ber'
 ) x 
 
 ```
-![Window Time per Month Reported](Window_Time_Analysis_of_Incidents_Happening_Month_Reported-1.png)
+![Window Time per Month Reported](Window_Time_Analysis_of_Incidents_Happening_Month_Reported.png)
 
 ---
