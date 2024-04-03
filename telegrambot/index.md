@@ -7,9 +7,8 @@
 [Video Presentation of Telegram Bot](https://youtu.be/oOTjHrp3N9Q?si=cSKsMoEcS6Ra8hM_)
 
 ---
----
 ## Python Files:
-[Video Presentation of Telegram Bot](https://youtu.be/oOTjHrp3N9Q?si=cSKsMoEcS6Ra8hM_)
+1. [Main.py](main.py)
 
 ---
 
