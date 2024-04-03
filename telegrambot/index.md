@@ -14,13 +14,13 @@ The Python code is hosted on an AWS EC2 instance, enabling interaction with a My
 ---
 ## Download Python Files:
 1. [main.py](main.py)
-+ Contains the main interface between telegram and the database. All functions and error handling are found in this file.
++ Contains the main interface between telegram and the database. All telegram functions and error handling are found in this file.
 
 2. [constants.py](constants.py)
 + Contains constant variables referenced in main.py. (Twilio API account ID, Telegram Bot ID, Email Address and SMTP ID)
 
 3. [db_connection_details](db_connection_details.py)
-+ Contains constant variables referenced in main.py. (Twilio API account ID, Telegram Bot ID, Email Address and SMTP ID)
++ Interfaces between Python and MySQL. Contains RDBMS connection functions.
 
 4. [mysql_connection_db](mysql_connection_db.py)
 + MySQL Interface class
