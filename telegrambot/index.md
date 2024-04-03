@@ -12,9 +12,14 @@ The Python code is hosted on an AWS EC2 instance, enabling interaction with a My
 [Video Presentation of Telegram Bot](https://youtu.be/oOTjHrp3N9Q?si=cSKsMoEcS6Ra8hM_)
 
 ---
-## Python Files:
-1. <a href="https://reytorremis.github.io/reytorrecampogrepo.github.io/telegrambot/main.py" target="_blank">main.py</a>
-2. [Main.py]()
+## Download Python Files:
+1. [main.py](main.py)
++ Contains the main interface between telegram and the database.
+
+2. [constants.py](constants.py)
+4. [db_connection_details](db_connection_details.py)
+5. [mysql_connection_db](mysql_connection_db.py)
+6. [responses](responses.py)
 
 ---
 
