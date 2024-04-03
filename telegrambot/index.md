@@ -13,7 +13,7 @@ The Python code is hosted on an AWS EC2 instance, enabling interaction with a My
 
 ---
 ## Python Files:
-1. <a href="[http://example.com/](https://reytorremis.github.io/reytorrecampogrepo.github.io/telegrambot/main.py" target="_blank">main.py</a>
+1. <a href="https://reytorremis.github.io/reytorrecampogrepo.github.io/telegrambot/main.py" target="_blank">main.py</a>
 2. [Main.py]()
 
 ---
