@@ -68,6 +68,12 @@ Feel free to browse.
 <a><img src="https://img.shields.io/badge/PowerBI-FFDE59" /></a>
 <a><img src="https://img.shields.io/badge/Excel%20and%20Spreadsheets-058E43" /></a>
 
+[PowerBI Projects](https://reytorremis.github.io/rey_sample_works/powerBI_projects/)
+
++ A collection of PowerBI Projects
+
+<a><img src="https://img.shields.io/badge/PowerBI-FFDE59" /></a>
+
 ---
 
 ### Software Development and Programming Projects 
