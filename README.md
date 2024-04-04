@@ -59,6 +59,7 @@ Feel free to browse.
 
 ### Software Development and Programming Projects 
 
+***
 1. [Telegram Bot](https://reytorremis.github.io/rey_sample_works/telegrambot/)
 
 + The Python code is hosted on an AWS EC2 instance, enabling interaction with a MySQL database. It also interfaces with a Telegram Bot and utilizes the Twilio and Mailgun APIs for sending text messages and emails, respectively. Similar to the first project, the server was disabled, but documentation and demonstration remain accessible.
@@ -94,7 +95,7 @@ Feel free to browse.
 <a><img src="https://img.shields.io/badge/MS%20SQL%20SERVER-FFDE59" /></a>
 <a><img src="https://img.shields.io/badge/SQL-D9AA1D" /></a>
 ***
-
+---
 ### Capstone Projects
 
 ***
