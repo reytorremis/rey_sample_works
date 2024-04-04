@@ -19,9 +19,8 @@ AWS Lambda programmed using python uses multiple API points. It connects with MS
 3. [all_views.sql](all_views.sql)
 + Contains all Views in MS SQL Server.
 
-4. [create tables.sql](create tables.sql)
+4. [create tables.sql](create_tables.sql)
 + Contains all Tables in MS SQL Server.
-
 
 ---
 
