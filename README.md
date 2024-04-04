@@ -83,6 +83,14 @@ Feel free to browse:
 <a><img src="https://img.shields.io/badge/HTML-B68565" /></a>
 <a><img src="https://img.shields.io/badge/CSS-91A3C1" /></a>
 
+4. [Health Information Management System](https://reytorremis.github.io/rey_sample_works/health_information_systems/)
+    
++ AWS Lambda programmed using python uses multiple API points. It connects with MS SQL Server and triggers stored procedures. Front-end for this project is a mobile app that accesses API end points. Server was shut down due to incurring costs.
+
+<a><img src="https://img.shields.io/badge/Amazon%20Web%20Services-F50202" /></a>
+<a><img src="https://img.shields.io/badge/Python-545353" /></a>
+<a><img src="https://img.shields.io/badge/MS%20SQL%20SERVER-FFDE59" /></a>
+<a><img src="https://img.shields.io/badge/SQL-D9AA1D" /></a>
 ***
 
 ### Capstone Projects
