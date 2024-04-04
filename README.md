@@ -94,7 +94,7 @@ Feel free to browse.
 <a><img src="https://img.shields.io/badge/Python-545353" /></a>
 <a><img src="https://img.shields.io/badge/MS%20SQL%20SERVER-FFDE59" /></a>
 <a><img src="https://img.shields.io/badge/SQL-D9AA1D" /></a>
-***
+
 ---
 ### Capstone Projects
 
