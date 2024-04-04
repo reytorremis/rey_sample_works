@@ -3,6 +3,9 @@
 
 <a href="https://reytorremis.github.io/rey_sample_works/"><img src="https://reytorremis.github.io/rey_sample_works" /></a>
 ---
+## Description
+This project uses Tableau and SQL for analyzing traffic behaviour in the Philippines. Cleaning is done using MS SQL Server. SQL is the programming language for analyzing the data.
+
 ## Links:
 [Tableau - MMDA Dashboard Visualization](https://public.tableau.com/app/profile/rey.lawrence.torrecampo/viz/MMDADashboard-Sample/Dashboard1)
 
