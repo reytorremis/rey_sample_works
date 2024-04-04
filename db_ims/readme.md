@@ -119,7 +119,7 @@
 
 4. python_scripts
     > Backend scripts to communicate between target database and AWS-hosted MySQL database
-        >> Target Database
+    >> Target Database
    + python_connector_class.py &rarr; _Python Class for Target Database Connection_
    + python_db_connection.py &rarr; _Interfaces with php to run connection details on target database_
    + pydbc_initial_con.py &rarr; _Function for Checking database connection with target database_
