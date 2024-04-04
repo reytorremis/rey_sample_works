@@ -1,458 +1,66 @@
-# ⬇️ The Only Markdown Cheatsheet You Need
-
-_Here you can find & download PDF version of the Complete Markdown Cheatsheet.  
-Feel free to download and use it. ✌🏼_
+# Rey's Sample Works
 
-✍🏼 I've also written, in more detail, some articles about Markdown in general.  
+Included in this page are the links and github repositories of my personal and school projects.
+Feel free to browse:
 
-<a href="https://dev.to/imluka/the-only-markdown-cheatsheet-you-will-ever-need-ccg"><img src="https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white" /></a>
-<a href="https://medium.com/@im-luka/the-only-markdown-cheatsheet-you-will-ever-need-a2941d008497"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" /></a>
-<a href="https://imluka.hashnode.dev/the-only-markdown-cheatsheet-you-will-ever-need"><img src="https://img.shields.io/badge/Hashnode-2962FF?style=for-the-badge&logo=hashnode&logoColor=white" /></a>
+## Data Analyst Projects
 
----
+### Google Colab Projects
+1. [Google Data Analyst - Case Study 1: How Does a Bike-Share Navigate Speedy Success?](https://colab.research.google.com/drive/1SEMoFim_BMfPKq8fyGaW6xgIcSrSSUgb#scrollTo=DagP4WgtKWPE)
+    - This project utilizes Python visualization and Looker for analyzing bike-share data. The dataset includes over 50 CSV files totaling more than 2GB, initially loaded into MS SQL Server. After cleaning and transforming the data with SQL, it's extracted to Google Sheets for easy access to Google services. Python and Jupyter Notebook are then used for data visualization. Finally, Looker serves as a dashboard for further data visualization. All files can be found in the google colab.
 
-#### ⚠️ Note
-GitHub specific Markdown doesn't support some of the features listed in PDF. Perhaps in the future, they might include it.  
+    <a><img src="https://img.shields.io/badge/MS%20SQL%20SERVER-FFDE59" /></a>
+    <a><img src="https://img.shields.io/badge/Python-545353" /></a>
+    <a><img src="https://img.shields.io/badge/SQL-D9AA1D" /></a>
+    <a><img src="https://img.shields.io/badge/Jupyter%20Notebook-7DDA58" /></a>
+    <a><img src="https://img.shields.io/badge/Google%20Looker%20Studio-01013C" /></a>
+    
+2. [Compass Travel Expense](https://colab.research.google.com/drive/1NdTEyaCMcY-cBJlOcmXoGG16lMLZ7jZ4#scrollTo=8TIQuM72gZ3j)
+    - A simple analysis on the amount spent for Translink by analzing Monthly Pass and cash value loading. The data set is manually extracted from Translink and loaded in a Postgres Database. However, the RDBMS was shut down due to incuring cost.
 
-👇🏼 If you are interested in GitHub specific Markdown, follow docs below.
-
----
-
-### What is Markdown?
-Markdown is a lightweight markup language that you can use to format plain text documents.  
-Write docs for your GitHub projects, edit your GitHub profile _README_ etc. You fill find it all here.  
-
-Let's dive into it. ⤵️
-
-#### Table of Contents
-
-1. [Paragraph](#paragraph)
-2. [Headings](#headings)
-3. [Emphasis](#emphasis)
-4. [Blockquote](#blockquote)
-5. [Images](#images)
-6. [Links](#links)
-7. [Code](#code)
-8. [Lists](#lists)
-    - [Ordered List](#orderedlist)
-    - [Unordered List](#unorderedlist)
-    - [Mixed List](#mixedlist)
-9. [Table](#table)
-10. [Task List](#tasklist)
-11. [Footnote](#footnote)
-12. [Jump to section](#sectionjump)
-13. [Horizontal Line](#horizontalline)
-14. [HTML](#html)
+    <a><img src="https://img.shields.io/badge/Postgres%20SQL-032DFF" /></a>
+    <a><img src="https://img.shields.io/badge/Python-545353" /></a>
+    <a><img src="https://img.shields.io/badge/SQL-D9AA1D" /></a>
+    <a><img src="https://img.shields.io/badge/Jupyter%20Notebook-7DDA58" /></a>
+    <a><img src="https://img.shields.io/badge/Google%20Looker%20Studio-01013C" /></a>
 
----
+### Other Data Analytics Projects
 
-<a name="paragraph" />
+1. [MMDA Traffic Analysis](https://reytorremis.github.io/rey_sample_works/mmda_dash/)
+    - This project Tableau and SQL for analyzing traffic behaviour in the Philippines. Cleaning is done using MS SQL Server. SQL is the programming language for analyzing the data.
 
-## Paragraph
-By writing regular text you are basically writing a paragraph.
+    <a><img src="https://img.shields.io/badge/MS%20SQL%20SERVER-FFDE59" /></a>
+    <a><img src="https://img.shields.io/badge/SQL-D9AA1D" /></a>
+    <a><img src="https://img.shields.io/badge/Tableau%20Public-05058E" /></a>
 
-```
-This is a paragraph.
-```
-This is a paragraph.
+2. [Filipino Migration](https://reytorremis.github.io/rey_sample_works/filipino_migration_analysis)
+    - This project uses Tableau and SQL for analyzing the Filipino Migration.  Cleaning is done using MS SQL Server and unpivotting the data. Analysis is done in Excel. A presentation deck shows how the analysis is done.
 
----
+    <a><img src="https://img.shields.io/badge/MS%20SQL%20SERVER-FFDE59" /></a>
+    <a><img src="https://img.shields.io/badge/Excel%20and%20Spreadsheets-058E43" /></a>
+    <a><img src="https://img.shields.io/badge/Powerpoint%20Presentation-E96D07" /></a>
+    <a><img src="https://img.shields.io/badge/SQL-D9AA1D" /></a>
+    <a><img src="https://img.shields.io/badge/Tableau%20Public-05058E" /></a>
+____
 
-<a name="headings" />
+### Software Development and Programming Projects 
 
-## Headings
-There are 6 heading variants. The number of "#" symbols, followed by text, indicates the importance of the heading.
+1. [Telegram Bot](https://reytorremis.github.io/rey_sample_works/telegrambot/)
+    - The Python code is hosted on an AWS EC2 instance, enabling interaction with a MySQL database. It also interfaces with a Telegram Bot and utilizes the Twilio and Mailgun APIs for sending text messages and emails, respectively. Similar to the first project, the server was disabled, but documentation and demonstration remain accessible.
 
-```
-# Heading 1
-## Heading 2
-### Heading 3
-#### Heading 4
-##### Heading 5
-###### Heading 6
-```
+    <a><img src="https://img.shields.io/badge/Python-545353" /></a>
+    <a><img src="https://img.shields.io/badge/Amazon%20Web%20Services-F50202" /></a>
+    <a><img src="https://img.shields.io/badge/MySQL-40A9B9" /></a>
+    <a><img src="https://img.shields.io/badge/SQL-D9AA1D" /></a>
+    <a><img src="https://img.shields.io/badge/Telegram-1B8EE1" /></a>
 
-# Heading 1
-## Heading 2
-### Heading 3
-#### Heading 4
-##### Heading 5
-###### Heading 6
+2. [Goldbach Equation](https://colab.research.google.com/drive/1m8KwEv2cmQvE6SBJu-qUyoN0dJLreADe)
+    - Mathematical approach in solving Golbach's Conjecture. Use python to solve the problem.
 
----
+    <a><img src="https://img.shields.io/badge/Python-545353" /></a>
+    <a><img src="https://img.shields.io/badge/Jupyter%20Notebook-7DDA58" /></a>
+___
 
-<a name="emphasis" />
+### Capstone Projects
 
-## Emphasis
-Modifying text is so neat and easy. You can make your text bold, italic and strikethrough.
-
-```
-Using two asterisks **this text is bold**.  
-Two underscores __work as well__.  
-Let's make it *italic now*.  
-You guessed it, _one underscore is also enough_.  
-Can we combine **_both of that_?** Absolutely.
-What if I want to ~~strikethrough~~?
-```
-
-Using two asterisks **this text is bold**.  
-Two underscores __work as well__.  
-Let's make it *italic now*.  
-You guessed it, _one underscore is also enough_.  
-Can we combine **_both of that_?** Absolutely.  
-What if I want to ~~strikethrough~~?
-
----
-
-<a name="blockquote" />
-
-## Blockquote
-Want to emphasise importance of the text? Say no more.
-
-```
-> This is a blockquote.
-> Want to write on a new line with space between?
->
-> > And nested? No problem at all.
-> >
-> > > PS. you can **style** your text _as you want_.
-```
-
-> This is a blockquote.
-> Want to write on a new line with space between?
->
-> > And nested? No problem at all.
-> >
-> > > PS. you can **style** your text _as you want_. :
-
----
-
-<a name="images" />
-
-## Images
-The best way is to simply drag & drop image from your computer directly. You can also create reference to image and assign it that way.  
-Here is the syntax.
-
-```
-![text if the image fails to load](auto-generated-path-to-file-when-you-upload-image "Text displayed on hover")
-
-[logo]: auto-generated-path-to-file-when-you-upload-image "Hover me"
-![error text][logo]
-```
-
-![text if the image fails to load](https://user-images.githubusercontent.com/46372998/212541682-9907aaea-5198-45a9-8961-2acc8a98a0db.png "Text displayed on hover")
-
-[logo]: https://user-images.githubusercontent.com/46372998/212541682-9907aaea-5198-45a9-8961-2acc8a98a0db.png "Hover me"
-![error text][logo]
-
----
-
-<a name="links" />
-
-## Links
-Similar to images, links can also be inserted directly or by creating a reference. You can create both inline and block links.
-
-```
-[markdown-cheatsheet]: https://github.com/im-luka/markdown-cheatsheet
-[docs]: https://github.com/adam-p/markdown-here
-
-[Like it so far? Follow me on GitHub](https://github.com/im-luka)
-[My Markdown Cheatsheet - star it if you like it][markdown-cheatsheet]
-Find some great docs [here][docs]
-```
-
-[markdown-cheatsheet]: https://github.com/im-luka/markdown-cheatsheet
-[docs]: https://github.com/adam-p/markdown-here
-
-[Like it so far? Follow me on GitHub](https://github.com/im-luka)  
-[My Markdown Cheatsheet - star it if you like it][markdown-cheatsheet]  
-Find some great docs [here][docs]
-
----
-
-<a name="code" />
-
-## Code
-You can cerate both inline and full block code snippets. You can also define programming language you were using in your snippet. All by using backticks.
-
-```
-    I created `.env` file at the root.
-    Backticks inside backticks? `` `No problem.` ``
-
-    ```
-    {
-      learning: "Markdown",
-      showing: "block code snippet"
-    }
-    ```
-
-    ```js
-    const x = "Block code snippet in JS";
-    console.log(x);
-    ```
-```
-
-I created `.env` file at the root.
-Backticks inside backticks? `` `No problem.` ``
-
-```
-{
-  learning: "Markdown",
-  showing: "block code snippet"
-}
-```
-
-```js
-const x = "Block code snippet in JS";
-console.log(x);
-```
-
----
-
-<a name="lists" />
-
-## Lists
-As you can do in HTML, Markdown allows creating of both ordered and unordered lists.
-
-<a name="orderedlist" />
-
-### Ordered List
-
-```
-1. HTML
-2. CSS
-3. Javascript
-4. React
-7. I'm Frontend Dev now 👨🏼‍🎨
-```
-
-1. HTML
-2. CSS
-3. Javascript
-4. React
-7. I'm Frontend Dev now 👨🏼‍🎨
-
-<a name="unorderedlist" />
-
-### Unordered List
-
-```
-- Node.js
-+ Express
-* Nest.js
-- Learning Backend ⌛️
-```
-
-- Node.js
-+ Express
-* Nest.js
-- Learning Backend ⌛️
-
-<a name="mixedlist" />
-
-### Mixed List
-You can also mix both of the lists and create sublists.  
-**PS.** Try not to create lists deeper than two levels. It is the best practice.
-
-```
-1. Learn Basics
-   1. HTML
-   2. CSS
-   7. Javascript
-2. Learn One Framework
-   - React 
-     - Router
-     - Redux
-   * Vue
-   + Svelte
-```
-
-1. Learn Basics
-   1. HTML
-   2. CSS
-   7. Javascript
-2. Learn One Framework
-   - React 
-     - Router
-     - Redux
-   * Vue
-   + Svelte
-
----
-
-<a name="table" />
-
-## Table
-Great way to display well-arranged data. Use "|" symbol to separate columns and ":" symbol to align row content.
-
-```
-| Left Align (default) | Center Align | Right Align |
-| :------------------- | :----------: | ----------: |
-| React.js             | Node.js      | MySQL       |
-| Next.js              | Express      | MongoDB     |
-| Vue.js               | Nest.js      | Redis       |
-```
-
-| Left Align (default) | Center Align | Right Align |
-| :------------------- | :----------: | ----------: |
-| React.js             | Node.js      | MySQL       |
-| Next.js              | Express      | MongoDB     |
-| Vue.js               | Nest.js      | Redis       |
-
----
-
-<a name="tasklist" />
-
-## Task List
-Keeping track of the tasks that are done, and those that need to be done.
-
-```
-- [x] Learn Markdown
-- [ ] Learn Frontend Development
-- [ ] Learn Full Stack Development
-```
-
-- [x] Learn Markdown
-- [ ] Learn Frontend Development
-- [ ] Learn Full Stack Development
-
----
-
-<a name="footnote" />
-
-## Footnote
-Want to describe something at the end of the file? Use footnote!
-
-```
-#### I am working on a new project. [^1]
-[^1]: Stack is: React, Typescript, Tailwind CSS  
-
-Project is about music & movies.
-
-##### Hope you will like it. [^see]
-[^see]: Loading... ⌛️
-```
-
-#### I am working on a new project. [^1]
-[^1]: Stack is: React, Typescript, Tailwind CSS  
-
-Project is about music & movies.
-
-##### Hope you will like it. [^see]
-[^see]: Loading... ⌛️
-
----
-
-<a name="sectionjump" />
-
-## Jump to section
-You can give ID to a section so that you can jump straight to that part of the file from wherever you are.
-
-```
-[Jump to a section with custom ID](#some-id)
-
-...
-
-<a name="some-id" />
-
-##### Section with some ID
-```
-
-[Jump to a section with custom ID](#some-id)
-
----
-
-<a name="horizontalline" />
-
-## Horizontal Line
-You can use asterisks, hyphens or underlines (*, -, _) to create horizontal line.  
-The only rule is that you must include at least three chars of the symbol.
-
-```
-First Horizontal Line
-
-***
-
-Second One
-
------
-
-Third
-
-_________
-```
-
-First Horizontal Line
-
-***
-
-Second One
-
------
-
-Third
-
-_________
-
-
----
-
-<a name="html" />
-
-## HTML
-You can also use raw HTML in your Markdown file. Most of the times that will work well, but sometimes you can experience some differences that you are not used to when working with standard HTML. Using CSS will not work.
-
-```
-<h1>This is a heading</h1>
-<p>Paragraph...</p>
-
-<hr />
-
-<img src="auto-generated-path-to-file-when-you-upload-image" width="200">
-<a href="https://github.com/im-luka">Follow me on GitHub</a>
-
-<br />
-<br />
-
-<p>Quick hack for <strong><em>centering image</em></strong>?</p>
-<p align="center"><img src="auto-generated-path-to-file-when-you-upload-image" /></p>
-
-<details>
-  <summary>One more quick hack? 🎭</summary>
-  
-  → Easy  
-  → And simple
-</details>
-```
-
-
-<h1>This is a heading</h1>
-<p>Paragraph...</p>
-
-<hr />
-
-<img src="https://user-images.githubusercontent.com/46372998/212544874-d0654588-82f7-44f2-bbfa-2bf85fd73854.png" width="200">
-<a href="https://github.com/im-luka">Follow me on GitHub</a>
-
-<br />
-<br />
-
-<p>Quick hack for <strong><em>centering image</em></strong>?</p>
-<p align="center"><img src="https://user-images.githubusercontent.com/46372998/212544874-d0654588-82f7-44f2-bbfa-2bf85fd73854.png" width="200" /></p>
-
-<details>
-  <summary>One more quick hack? 🎭</summary>
-  
-  → Easy  
-  → And simple
-</details>
-
-<div class='tableauPlaceholder' id='viz1711199652680' style='position: relative'><noscript><a href='#'><img alt='MMDA Dashboard Sample ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;MM&#47;MMDADashboard-Sample&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='MMDADashboard-Sample&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;MM&#47;MMDADashboard-Sample&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1711199652680');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='927px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-
----
-
-<a name="some-id" />
-
-##### Section with some ID
-
-
+___
