@@ -1,7 +1,7 @@
 
 # Rey's Sample Works - MMDA Visualization
 
-<a href="https://reytorremis.github.io/reytorrecampogrepo.github.io/"><img src="https://img.shields.io/badge/HOME%20GitHub-0068cb" /></a>
+<a href="https://reytorremis.github.io/rey_sample_works/"><img src="https://img.shields.io/badge/HOME%20GitHub-0068cb" /></a>
 ---
 ## Links:
 [Tableau - MMDA Dashboard Visualization](https://public.tableau.com/app/profile/rey.lawrence.torrecampo/viz/MMDADashboard-Sample/Dashboard1)
