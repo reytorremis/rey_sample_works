@@ -111,7 +111,7 @@ create table [dbo].[system_logs](
 
 drop table  if exists defeault_timestamp
 CREATE TABLE defeault_timestamp (get_date DATETIME DEFAULT  dateadd(hh,+10,GETDATE()))
-<pre>
+</pre>
 
 </details>
 
@@ -124,7 +124,7 @@ Created functions and stored procedures for database interaction between Python 
 
 <summary>Click Here for SQL Script for Functions</summary>
 
-```
+<pre>
 CREATE FUNCTION dbo.fx_generate_user_id ()
 returns varchar(40) as
 	begin
@@ -189,14 +189,14 @@ as
 		select 'ERROR', ERROR_NUMBER(), ERROR_MESSAGE();
 		set @new_user_id = 'ERROR';
 	END CATCH
-```
+</pre>
 </details>
 
 <details close>
 
 <summary>Click Here for SQL Script for Stored Procedures</summary>
 
-```
+<pre>
 ALTER procedure [dbo].[sp_user_registration_simple](
 	@username varchar(50),
 	@password varchar(100),
@@ -430,7 +430,7 @@ as
 		select 'sp_edit_user', 'ERROR', ERROR_NUMBER(), ERROR_MESSAGE(), @current_date;
 		exec [dbo].[sys_log_insert] @userid, 'FAILED TO UPDATE RECORD';
 	END CATCH
-```
+</pre>
 </details>
 
 #### Views
@@ -441,7 +441,7 @@ Another layer of security for data extraction. Linked account for database will 
 
 <summary>Click Here for SQL Script for Views</summary>
 
-```
+<pre>
 create view dbo.vw_most_recent_user_logs as
 with max_cte (sys_log_id, user_id, message)  as (
 	select
@@ -474,7 +474,7 @@ create view dbo.vw_get_all_patient as
 
 select user_id, first_name, last_name, gender, mobile_number, birthday, complete_address, height, weight, user_name from users
 where role = 'PATIENT'
-```
+</pre>
 
 </details>
 
@@ -486,7 +486,7 @@ main.py python file containing all interactions with RDBMS. This is deployed on 
 
 <summary>Click Here to see main.py</summary>
 
-```
+<pre>
 
 ## ---------------------------------- Libraries --------------------------------------
 import json
@@ -797,7 +797,7 @@ def lambda_handler(event, context):
     uid = event['uid']
     return {'statusCode': 200, 'body': json.dumps(connect_to_db(uid))}
 
-```
+</pre>
 </details>
 
 ---
