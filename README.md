@@ -31,7 +31,7 @@ Feel free to browse:
 <a><img src="https://img.shields.io/badge/Jupyter%20Notebook-7DDA58" /></a>
 <a><img src="https://img.shields.io/badge/Google%20Looker%20Studio-01013C" /></a>
 
-***
+---
 
 ### Other Data Analytics Projects
 
