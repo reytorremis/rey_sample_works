@@ -32,7 +32,7 @@ Feel free to browse.
 
 [Kevin's Cookie Company Analysis](https://colab.research.google.com/drive/1W6-spAtcNJy696cccBwSKEufbPxDUOM6)
 
-+ A fictious cookie company wants to analyze their current data. This is an indepth analysis of the data set using Python.
++ A fictious cookie company wants to analyze their current data. This is an indepth analysis of the data set using Python and Jupyter Notebook.
 
 <a><img src="https://img.shields.io/badge/Python-545353" /></a>
 <a><img src="https://img.shields.io/badge/Jupyter%20Notebook-7DDA58" /></a>
@@ -44,7 +44,7 @@ Feel free to browse.
 ***
 [MMDA Traffic Analysis](https://reytorremis.github.io/rey_sample_works/mmda_dash/)
 
-+ This project Tableau and SQL for analyzing traffic behaviour in the Philippines. Cleaning is done using MS SQL Server. SQL is the programming language for analyzing the data.
++ This project uses Tableau and SQL for analyzing traffic behaviour in the Philippines. Cleaning is done using MS SQL Server. SQL is the programming language for analyzing the data.
 
 <a><img src="https://img.shields.io/badge/MS%20SQL%20SERVER-FFDE59" /></a>
 <a><img src="https://img.shields.io/badge/SQL-D9AA1D" /></a>
@@ -86,7 +86,7 @@ Feel free to browse.
 
 [Goldbach's Conjecture](https://colab.research.google.com/drive/1m8KwEv2cmQvE6SBJu-qUyoN0dJLreADe)
     
-+ Mathematical approach in solving Golbach's Conjecture. Use python to solve the problem.
++ Mathematical approach in solving Golbach's Conjecture. Used python to solve the problem.
 
 <a><img src="https://img.shields.io/badge/Python-545353" /></a>
 <a><img src="https://img.shields.io/badge/Jupyter%20Notebook-7DDA58" /></a>
