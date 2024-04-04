@@ -4,9 +4,7 @@ Included in this page are the links and github repositories of my personal and s
 Feel free to browse:
 
 ## Data Analyst Projects
-
-___
-
+---
 ***
 
 ### Google Colab Projects
