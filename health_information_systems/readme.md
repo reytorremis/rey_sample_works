@@ -1,4 +1,4 @@
-# Rey's Sample Works - MMDA Visualization
+# Rey's Sample Works - Health Information Management System
 
 <a href=""><img src="https://img.shields.io/badge/HOME%20GitHub-0068cb" /></a>
 
