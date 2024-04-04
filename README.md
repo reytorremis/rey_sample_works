@@ -5,8 +5,14 @@ Feel free to browse:
 
 ## Data Analyst Projects
 
-### Google Colab Projects
+___
+
 ***
+
+### Google Colab Projects
+
+***
+
 1. [Google Data Analyst - Case Study 1: How Does a Bike-Share Navigate Speedy Success?](https://colab.research.google.com/drive/1SEMoFim_BMfPKq8fyGaW6xgIcSrSSUgb#scrollTo=DagP4WgtKWPE)
 
 + This project utilizes Python visualization and Looker for analyzing bike-share data. The dataset includes over 50 CSV files totaling more than 2GB,     initially loaded into MS SQL Server. After cleaning and transforming the data with SQL, it's extracted to Google Sheets for easy access to Google services. Python and Jupyter Notebook are then used for data visualization. Finally, Looker serves as a dashboard for further data visualization. All files can be found in the google colab.
