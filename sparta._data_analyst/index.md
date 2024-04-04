@@ -13,5 +13,4 @@ An in-depth analysis on Covid's impact in Philippine Education. Using statistica
 
 ## Downloadable Files
 
-[main.py](main.py)
-+ Contains file for API responses to interface MS SQL Server and AWS Lambda from data in front end.
+[Mock Education Dashboard Revised Version](Mock_Education_Dashboard_Revised_Version.xlsx)
