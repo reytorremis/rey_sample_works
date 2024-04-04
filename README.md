@@ -5,8 +5,6 @@ Feel free to browse:
 
 ## Data Analyst Projects
 ---
-***
-
 ### Google Colab Projects
 
 ***
