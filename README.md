@@ -84,6 +84,12 @@ Feel free to browse.
 <a><img src="https://img.shields.io/badge/HTML-B68565" /></a>
 <a><img src="https://img.shields.io/badge/CSS-91A3C1" /></a>
 
+[Cheque Writer](https://reytorremis.github.io/rey_sample_works/cheque_generator/)
+    
++ A check writer coded in excel and VBA.
+
+<a><img src="https://img.shields.io/badge/Excel%20and%20Spreadsheets-058E43" /></a>
+
 [Health Information Management System](https://reytorremis.github.io/rey_sample_works/health_information_systems/)
     
 + AWS Lambda programmed using python uses multiple API points. It connects with MS SQL Server and triggers stored procedures. Front-end for this project is a mobile app that accesses API end points. Server was shut down due to incurring costs.
