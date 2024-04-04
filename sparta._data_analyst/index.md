@@ -1,6 +1,6 @@
 # Rey's Sample Works - Data Analysis on Education for Covid: Were online classes Successful?
 
-<a href=""><img src="https://img.shields.io/badge/HOME-GitHub-blue" /></a>
+<a href="https://reytorremis.github.io/rey_sample_works/"><img src="https://img.shields.io/badge/HOME-GitHub-blue" /></a>
 
 ## Description
 An in-depth analysis on Covid's impact in Philippine Education. Using statistical models, quantitative and qualitative analysis and data visualization, this study explores 1) deterioration of mental health and its adverse effect in online education and 2) the social and economical factors that hindred online education.
