@@ -140,7 +140,7 @@
 
 5. sql_scripts
     > Database Structure and SQL Scripts of Stored Procedures for target database 
-        >> AWS-hosted MySQL Database
+    >> AWS-hosted MySQL Database
     + all triggers.txt &rarr; _Contains all Triggers for MySQL RDBMS_
     + all_stored_procedure_&_function.txt &rarr; _Contains all Stored Procedure & Functions for MySQL RDBMS_
     + all_tables.txt &rarr; _Contains all tables for MySQL RDBMS_
