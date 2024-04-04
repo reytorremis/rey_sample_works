@@ -84,7 +84,7 @@ Feel free to browse.
 <a><img src="https://img.shields.io/badge/SQL-D9AA1D" /></a>
 <a><img src="https://img.shields.io/badge/Telegram-1B8EE1" /></a>
 
-[Goldbach Equation](https://colab.research.google.com/drive/1m8KwEv2cmQvE6SBJu-qUyoN0dJLreADe)
+[Goldbach's Conjecture](https://colab.research.google.com/drive/1m8KwEv2cmQvE6SBJu-qUyoN0dJLreADe)
     
 + Mathematical approach in solving Golbach's Conjecture. Use python to solve the problem.
 
