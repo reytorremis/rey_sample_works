@@ -9,7 +9,7 @@ A simple cheque writer coded in excel. The file uses Macros.
 
 ## Download Files
 
-[Cheque Writer](final_version_cheque_writer-3_updated_02122024.xlsm)
+[Cheque Writer Excel File](final_version_cheque_writer-3_updated_02122024.xlsm)
 
 ### VBA Code
 
