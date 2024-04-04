@@ -1,4 +1,4 @@
-# Rey's Sample Works - Health Information Management System
+# Rey's Sample Works - MMDA Visualization
 
 <a href=""><img src="https://img.shields.io/badge/HOME%20GitHub-0068cb" /></a>
 
@@ -11,13 +11,17 @@ AWS Lambda programmed using python uses multiple API points. It connects with MS
 
 ---
 
-## Steps in Deployment
+## Code
 
-### 1. Provisioning a MS SQL Server
+### Provisioning a MS SQL Server
 
 Deployed a MS SQL Server RDBMS in AWS and created a database named csmsc_209. Afterwards, tables were created using the SQL Script below:
 
-#### 2. Create Tables
+#### Create Tables
+
+<details close>
+
+<summary>Click Here for Create Table SQL Script</summary>
 
 ```
 USE [csmsc_209]
@@ -96,9 +100,16 @@ drop table  if exists defeault_timestamp
 CREATE TABLE defeault_timestamp (get_date DATETIME DEFAULT  dateadd(hh,+10,GETDATE()))
 ```
 
-#### 3. Stored Procedures and Functions
+</details>
+
+
+#### Stored Procedures and Functions
 
 Created functions and stored procedures for database interaction between Python Code and writing data in RDBMS. This adds a layer of security.
+
+<details close>
+
+<summary>Click Here for SQL Script for Functions</summary>
 
 ```
 CREATE FUNCTION dbo.fx_generate_user_id ()
@@ -165,9 +176,14 @@ as
 		select 'ERROR', ERROR_NUMBER(), ERROR_MESSAGE();
 		set @new_user_id = 'ERROR';
 	END CATCH
+```
+</details>
 
+<details close>
 
+<summary>Click Here for SQL Script for Stored Procedures</summary>
 
+```
 ALTER procedure [dbo].[sp_user_registration_simple](
 	@username varchar(50),
 	@password varchar(100),
@@ -402,10 +418,15 @@ as
 		exec [dbo].[sys_log_insert] @userid, 'FAILED TO UPDATE RECORD';
 	END CATCH
 ```
+</details>
 
-#### 4. Views
+#### Views
 
 Another layer of security for data extraction. Linked account for database will only access views and stored procedures.
+
+<details close>
+
+<summary>Click Here for SQL Script for Views</summary>
 
 ```
 create view dbo.vw_most_recent_user_logs as
@@ -442,9 +463,15 @@ select user_id, first_name, last_name, gender, mobile_number, birthday, complete
 where role = 'PATIENT'
 ```
 
-#### 5. Python Interface in AWS Lambda
+</details>
+
+#### Python Interface
 
 main.py python file containing all interactions with RDBMS. This is deployed on AWS Lambda.
+
+<details close>
+
+<summary>Click Here to see main.py</summary>
 
 ```
 
@@ -758,3 +785,4 @@ def lambda_handler(event, context):
     return {'statusCode': 200, 'body': json.dumps(connect_to_db(uid))}
 
 ```
+</details>
