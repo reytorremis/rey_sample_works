@@ -18,8 +18,8 @@ Feel free to browse.
 <a><img src="https://img.shields.io/badge/Jupyter%20Notebook-7DDA58" /></a>
 <a><img src="https://img.shields.io/badge/Google%20Looker%20Studio-01013C" /></a>
     
-[Compass Travel Expense](https://colab.research.google.com/drive/1NdTEyaCMcY-cBJlOcmXoGG16lMLZ7jZ4#scrollTo=8TIQuM72gZ3j)
 
+[Compass Travel Expense](https://colab.research.google.com/drive/1NdTEyaCMcY-cBJlOcmXoGG16lMLZ7jZ4#scrollTo=8TIQuM72gZ3j)
 + A simple analysis on the amount spent for Translink by analzing Monthly Pass and cash value loading. The data set is manually extracted from Translink and loaded in a Postgres Database. However, the RDBMS was shut down due to incuring cost.
 
 
@@ -28,6 +28,14 @@ Feel free to browse.
 <a><img src="https://img.shields.io/badge/SQL-D9AA1D" /></a>
 <a><img src="https://img.shields.io/badge/Jupyter%20Notebook-7DDA58" /></a>
 <a><img src="https://img.shields.io/badge/Google%20Looker%20Studio-01013C" /></a>
+
+
+[Kevin's Cookie Company Analysis]([https://colab.research.google.com/drive/1NdTEyaCMcY-cBJlOcmXoGG16lMLZ7jZ4#scrollTo=8TIQuM72gZ3j](https://colab.research.google.com/drive/1W6-spAtcNJy696cccBwSKEufbPxDUOM6))
+
++ A fictious cookie company wants to analyze their current data. This is an indepth analysis of the data set using Python.
+
+<a><img src="https://img.shields.io/badge/Python-545353" /></a>
+<a><img src="https://img.shields.io/badge/Jupyter%20Notebook-7DDA58" /></a>
 
 ---
 
@@ -52,6 +60,13 @@ Feel free to browse.
 <a><img src="https://img.shields.io/badge/Powerpoint%20Presentation-E96D07" /></a>
 <a><img src="https://img.shields.io/badge/SQL-D9AA1D" /></a>
 <a><img src="https://img.shields.io/badge/Tableau%20Public-05058E" /></a>
+
+[Kevin's Cookie Company Analysis]([https://reytorremis.github.io/rey_sample_works/filipino_migration_analysis](https://reytorremis.github.io/rey_sample_works/kevin_cookie/))
+
++ A fictious cookie company wants to analyze their current data. This is demonstration of the presenting the data, visualizing it through PowerBI and analyzing it in excel.
+
+<a><img src="https://img.shields.io/badge/PowerBI-FFDE59" /></a>
+<a><img src="https://img.shields.io/badge/Excel%20and%20Spreadsheets-058E43" /></a>
 
 ---
 
@@ -122,7 +137,6 @@ Feel free to browse.
 [Data Analysis on Education for Covid: Were online classes Successful?](https://reytorremis.github.io/rey_sample_works/sparta_data_analyst/)
 
 + An in-depth analysis on Covid's impact in Philippine Education. Using statistical models, quantitative and qualitative analysis and data visualization, this study explores 1) deterioration of mental health and its adverse effect in online education and 2) the social and economical factors that hindred online education.
-
 
 <a><img src="https://img.shields.io/badge/Excel%20and%20Spreadsheets-058E43" /></a>
 <a><img src="https://img.shields.io/badge/Google%20Looker%20Studio-01013C" /></a>
