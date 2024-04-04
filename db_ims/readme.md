@@ -111,6 +111,7 @@
 
 3. PHP applications
     > Backend scripts for communicating with Python, AWS-hosted MySQL Database and Front-end webpage
+
         + auto_config_connect.php &rarr; _Test connection with RDBMS target and logs it if successful_
         + auto_user_action.php &rarr; _Checks Username and Password then verifies if username + password exists in database_
         + dbConnection.php &rarr; _AWS-hosted MySQL database credentials_
