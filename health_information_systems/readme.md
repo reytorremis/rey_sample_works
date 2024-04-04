@@ -11,13 +11,13 @@ AWS Lambda programmed using python uses multiple API points. It connects with MS
 
 ---
 
-## Code
+## Steps in Deployment
 
-### Provisioning a MS SQL Server
+### 1. Provisioning a MS SQL Server
 
 Deployed a MS SQL Server RDBMS in AWS and created a database named csmsc_209. Afterwards, tables were created using the SQL Script below:
 
-#### Create Tables
+#### 2. Create Tables
 
 ```
 USE [csmsc_209]
@@ -96,7 +96,7 @@ drop table  if exists defeault_timestamp
 CREATE TABLE defeault_timestamp (get_date DATETIME DEFAULT  dateadd(hh,+10,GETDATE()))
 ```
 
-#### Stored Procedures and Functions
+#### 3. Stored Procedures and Functions
 
 Created functions and stored procedures for database interaction between Python Code and writing data in RDBMS. This adds a layer of security.
 
@@ -403,7 +403,7 @@ as
 	END CATCH
 ```
 
-#### Views
+#### 4. Views
 
 Another layer of security for data extraction. Linked account for database will only access views and stored procedures.
 
@@ -442,7 +442,7 @@ select user_id, first_name, last_name, gender, mobile_number, birthday, complete
 where role = 'PATIENT'
 ```
 
-#### Python Interface
+#### 5. Python Interface in AWS Lambda
 
 main.py python file containing all interactions with RDBMS. This is deployed on AWS Lambda.
 
