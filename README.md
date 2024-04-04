@@ -104,10 +104,9 @@ Feel free to browse.
 
 ***
 
-[Data Analysis on Education for Covid: Were online classes Successful?](https://reytorremis.github.io/rey_sample_works/sparta_data_analyst/)
-    
-+ Modify and retrofit inventory management systems to function with relational database systems through a web interface designed for operation on a Windows server (deployed via AWS). The programming languages involved include SQL, Python, JavaScript, PHP, CSS, and HTML. Regrettably, the system was deactivated due to accumulating expenses. However, all documentation remains accessible below.
+[Management Information System for Database Monitoring](https://reytorremis.github.io/rey_sample_works/db_ims/)
 
++ Modify and retrofit inventory management systems to function with relational database systems through a web interface designed for operation on a Windows server (deployed via AWS). The programming languages involved include SQL, Python, JavaScript, PHP, CSS, and HTML. Regrettably, the system was deactivated due to accumulating expenses. However, all documentation remains accessible below.
 
 <a><img src="https://img.shields.io/badge/Javascript-0B7C84" /></a>
 <a><img src="https://img.shields.io/badge/HTML-B68565" /></a>
@@ -120,8 +119,8 @@ Feel free to browse.
 <a><img src="https://img.shields.io/badge/Postgres%20SQL-032DFF" /></a>
 <a><img src="https://img.shields.io/badge/MySQL-40A9B9" /></a>
 
-[Management Information System for Database Monitoring](https://reytorremis.github.io/rey_sample_works/db_ims/)
-    
+[Data Analysis on Education for Covid: Were online classes Successful?](https://reytorremis.github.io/rey_sample_works/sparta_data_analyst/)
+
 + An in-depth analysis on Covid's impact in Philippine Education. Using statistical models, quantitative and qualitative analysis and data visualization, this study explores 1) deterioration of mental health and its adverse effect in online education and 2) the social and economical factors that hindred online education.
 
 
