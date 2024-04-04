@@ -30,7 +30,7 @@ Feel free to browse.
 <a><img src="https://img.shields.io/badge/Google%20Looker%20Studio-01013C" /></a>
 
 
-[Kevin's Cookie Company Analysis]([https://colab.research.google.com/drive/1NdTEyaCMcY-cBJlOcmXoGG16lMLZ7jZ4#scrollTo=8TIQuM72gZ3j](https://colab.research.google.com/drive/1W6-spAtcNJy696cccBwSKEufbPxDUOM6))
+[Kevin's Cookie Company Analysis](https://colab.research.google.com/drive/1W6-spAtcNJy696cccBwSKEufbPxDUOM6)
 
 + A fictious cookie company wants to analyze their current data. This is an indepth analysis of the data set using Python.
 
