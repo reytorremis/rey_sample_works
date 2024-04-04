@@ -9,6 +9,20 @@ AWS Lambda programmed using python uses multiple API points. It connects with MS
 ## Links:
 [Documentation](https://drive.google.com/file/d/17rDCuWskhmumeTC5LrPi2npBAy99ulI4/view)
 
+## Download SQL and Python Codes:
+1. [main.py](main.py)
++ Contains file for API responses to interface MS SQL Server and AWS Lambda from data in front end.
+
+2. [all_sp_and_functions.sql](all_sp_and_functions.sql)
++ Contains all Functions and Stored Procedures in MS SQL Server.
+
+3. [all_views.sql]([all_views.sql)
++ Contains all Views in MS SQL Server.
+
+4. [create tables.sql](create tables.sql)
++ Contains all Tables in MS SQL Server.
+
+
 ---
 
 ## Code
@@ -786,3 +800,5 @@ def lambda_handler(event, context):
 
 ```
 </details>
+
+---
