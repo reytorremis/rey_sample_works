@@ -1,6 +1,6 @@
 # Rey's Sample Works - Cheque Generator
 
-<a href="https://reytorremis.github.io/rey_sample_works/"><img src="https://img.shields.io/badge/HOME-GitHub" /></a>
+<a href="https://reytorremis.github.io/rey_sample_works/"><img src="https://img.shields.io/badge/HOME-gray_GitHub-blue" /></a>
 
 ## Description
 A simple cheque writer coded in excel. The file uses Macros.
