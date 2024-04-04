@@ -111,12 +111,11 @@
 
 3. PHP applications
     > Backend scripts for communicating with Python, AWS-hosted MySQL Database and Front-end webpage
-
-        + auto_config_connect.php &rarr; _Test connection with RDBMS target and logs it if successful_
-        + auto_user_action.php &rarr; _Checks Username and Password then verifies if username + password exists in database_
-        + dbConnection.php &rarr; _AWS-hosted MySQL database credentials_
-        + extract_data.php &rarr; _Get database health and status data from AWS-hosted MySQL Database_
-        + extract_data.php &rarr; _Set Variables for Directories for Python, API Mailer, database connector and manual execution_
+   + auto_config_connect.php &rarr; _Test connection with RDBMS target and logs it if successful_
+   + auto_user_action.php &rarr; _Checks Username and Password then verifies if username + password exists in database_
+   + dbConnection.php &rarr; _AWS-hosted MySQL database credentials_
+   + extract_data.php &rarr; _Get database health and status data from AWS-hosted MySQL Database_
+   + extract_data.php &rarr; _Set Variables for Directories for Python, API Mailer, database connector and manual execution_
 
 4. python_scripts
     > Backend scripts to communicate between target database and AWS-hosted MySQL database
