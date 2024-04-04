@@ -1,6 +1,6 @@
 # Rey's Sample Works - Management Information System for Database Monitoring
 
-<a href=""><img src="https://img.shields.io/badge/HOME%20GitHub-0068cb" /></a>
+<a href="https://reytorremis.github.io/rey_sample_works/"><img src="https://img.shields.io/badge/HOME%20GitHub-0068cb" /></a>
 
 ---
 ## External Links:
