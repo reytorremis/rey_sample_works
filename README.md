@@ -47,7 +47,7 @@ Feel free to browse:
 
 ***
 
-#### Software Development and Programming Projects 
+### Software Development and Programming Projects 
 
 1. [Telegram Bot](https://reytorremis.github.io/rey_sample_works/telegrambot/)
     - The Python code is hosted on an AWS EC2 instance, enabling interaction with a MySQL database. It also interfaces with a Telegram Bot and utilizes the Twilio and Mailgun APIs for sending text messages and emails, respectively. Similar to the first project, the server was disabled, but documentation and demonstration remain accessible.
