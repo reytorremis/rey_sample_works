@@ -36,7 +36,7 @@ Deployed a MS SQL Server RDBMS in AWS and created a database named csmsc_209. Af
 
 <summary>Click Here for Create Table SQL Script</summary>
 
-```
+<pre>
 USE [csmsc_209]
 
 GO
@@ -111,7 +111,7 @@ create table [dbo].[system_logs](
 
 drop table  if exists defeault_timestamp
 CREATE TABLE defeault_timestamp (get_date DATETIME DEFAULT  dateadd(hh,+10,GETDATE()))
-```
+<pre>
 
 </details>
 
