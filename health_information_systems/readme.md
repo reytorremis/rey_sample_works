@@ -1,6 +1,6 @@
 # Rey's Sample Works - Health Information Management System
 
-<a href=""><img src="https://img.shields.io/badge/HOME%20GitHub-0068cb" /></a>
+<a href="https://reytorremis.github.io/rey_sample_works/"><img src="https://img.shields.io/badge/HOME-GitHub-blue" /></a>
 
 ## Description
 AWS Lambda programmed using python uses multiple API points. It connects with MS SQL Server and triggers stored procedures. Front-end for this project is a mobile app that accesses API end points. Server was shut down due to incurring costs.
