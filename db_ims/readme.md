@@ -7,7 +7,7 @@
 
 - [Published Documentation: Zenodo](https://zenodo.org/records/8176445)
 
-- [Github Reponsitory of Files](https://github.com/reytorremis/dm_ims_work_sample/tree/main)
+- [Github Repository of Files](https://github.com/reytorremis/dm_ims_work_sample/tree/main)
 
 ---
 ## Architecture
