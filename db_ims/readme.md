@@ -12,11 +12,11 @@
 ---
 ## Architecture
 
-
+![system_architecture](system_architecture.png "System Architecture")
 
 ## Database Architecture
 
-
+![Entity Relationship Diagram](erd.png "Entity Relationship Diagram")
 
 
 ## Files Structure
