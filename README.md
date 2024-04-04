@@ -1,7 +1,7 @@
 # Rey's Sample Works
 
 Included in this page are the links and github repositories of my personal and school projects.
-Feel free to browse:
+Feel free to browse.
 
 ## Data Analyst Projects
 ---
@@ -55,7 +55,7 @@ Feel free to browse:
 <a><img src="https://img.shields.io/badge/SQL-D9AA1D" /></a>
 <a><img src="https://img.shields.io/badge/Tableau%20Public-05058E" /></a>
 
-***
+---
 
 ### Software Development and Programming Projects 
 
