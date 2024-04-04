@@ -6,6 +6,7 @@ Feel free to browse:
 ## Data Analyst Projects
 
 ### Google Colab Projects
+***
 1. [Google Data Analyst - Case Study 1: How Does a Bike-Share Navigate Speedy Success?](https://colab.research.google.com/drive/1SEMoFim_BMfPKq8fyGaW6xgIcSrSSUgb#scrollTo=DagP4WgtKWPE)
     - This project utilizes Python visualization and Looker for analyzing bike-share data. The dataset includes over 50 CSV files totaling more than 2GB, initially loaded into MS SQL Server. After cleaning and transforming the data with SQL, it's extracted to Google Sheets for easy access to Google services. Python and Jupyter Notebook are then used for data visualization. Finally, Looker serves as a dashboard for further data visualization. All files can be found in the google colab.
 
@@ -23,9 +24,11 @@ Feel free to browse:
     <a><img src="https://img.shields.io/badge/SQL-D9AA1D" /></a>
     <a><img src="https://img.shields.io/badge/Jupyter%20Notebook-7DDA58" /></a>
     <a><img src="https://img.shields.io/badge/Google%20Looker%20Studio-01013C" /></a>
+***
 
 ### Other Data Analytics Projects
 
+***
 1. [MMDA Traffic Analysis](https://reytorremis.github.io/rey_sample_works/mmda_dash/)
     - This project Tableau and SQL for analyzing traffic behaviour in the Philippines. Cleaning is done using MS SQL Server. SQL is the programming language for analyzing the data.
 
@@ -41,7 +44,8 @@ Feel free to browse:
     <a><img src="https://img.shields.io/badge/Powerpoint%20Presentation-E96D07" /></a>
     <a><img src="https://img.shields.io/badge/SQL-D9AA1D" /></a>
     <a><img src="https://img.shields.io/badge/Tableau%20Public-05058E" /></a>
-____
+
+***
 
 ### Software Development and Programming Projects 
 
@@ -59,7 +63,8 @@ ____
 
     <a><img src="https://img.shields.io/badge/Python-545353" /></a>
     <a><img src="https://img.shields.io/badge/Jupyter%20Notebook-7DDA58" /></a>
-___
+
+***
 
 ### Capstone Projects
 
