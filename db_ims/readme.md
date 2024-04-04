@@ -2,6 +2,12 @@
 
 <a href="https://reytorremis.github.io/rey_sample_works/"><img src="https://img.shields.io/badge/HOME%20GitHub-0068cb" /></a>
 
+## Description
+
+Modify and retrofit inventory management systems to function with relational database systems through a web interface designed for operation on a Windows server (deployed via AWS). The programming languages involved include SQL, Python, JavaScript, PHP, CSS, and HTML. Regrettably, the system was deactivated due to accumulating expenses. However, all documentation remains accessible below.
+
+![Quick View](quick_view.jpg)
+
 ---
 ## External Links:
 
