@@ -93,6 +93,7 @@
 
 1. Webpages
     > Contains all webpages for project
+    
     + add_connection_details.php &rarr; _Connection Details Page_
     + analyze_env.php &rarr; _Monitor health across multiple database with in-depth details for analysis_
     + analyze_ind.php &rarr; _Monitor a single database instance with in-depth details for analysis_
@@ -110,16 +111,18 @@
     + edit_table.js &rarr; _Javascript reference by connection details for dynamic editting without the need for submission form_
 
 3. PHP applications
-    > Backend scripts for communicating with Python, AWS-hosted MySQL Database and Front-end webpage
+   > Backend scripts for communicating with Python, AWS-hosted MySQL Database and Front-end webpage
+
    + auto_config_connect.php &rarr; _Test connection with RDBMS target and logs it if successful_
    + auto_user_action.php &rarr; _Checks Username and Password then verifies if username + password exists in database_
    + dbConnection.php &rarr; _AWS-hosted MySQL database credentials_
    + extract_data.php &rarr; _Get database health and status data from AWS-hosted MySQL Database_
    + extract_data.php &rarr; _Set Variables for Directories for Python, API Mailer, database connector and manual execution_
 
-4. python_scripts
-    > Backend scripts to communicate between target database and AWS-hosted MySQL database
-    >> Target Database
+5. python_scripts
+   > Backend scripts to communicate between target database and AWS-hosted MySQL database
+   >> Target Database
+
    + python_connector_class.py &rarr; _Python Class for Target Database Connection_
    + python_db_connection.py &rarr; _Interfaces with php to run connection details on target database_
    + pydbc_initial_con.py &rarr; _Function for Checking database connection with target database_
@@ -128,26 +131,37 @@
    + pg_extract_data.py &rarr; _Extracts Data from PostgresSQL Database_
    + mysql_extract_data.py &rarr; _Extracts Data from MySQL Database_
    + sql_server_extract_data.py &rarr; _Extracts Data from MS SQL Server Database_
-        >> AWS-hosted MySQL Database
+
+   >> AWS-hosted MySQL Database
+   
    + mysql_connector_class.py &rarr; _MySQL Connector Class for AWS-hosted database_
    + local_db_connection.py &rarr; _Connects and interfaces with AWS-hosted MySQL Database Server_
-    > Other Scripts
-    + run_manual.py &rarr; _Executes command manually_
-    + automated_run.py &rarr; _Executes command automatically by server_
-    + log_info.py &rarr; _Logs all information in a text file per day_
-    + mailer.py &rarr; _Connects with Mailgun API_
-    + run_script.py &rarr; _Gets automated jobs and defines functions for running automatically or manually _
 
-5. sql_scripts
+   > Other Scripts
+   
+   + run_manual.py &rarr; _Executes command manually_
+   + automated_run.py &rarr; _Executes command automatically by server_
+   + log_info.py &rarr; _Logs all information in a text file per day_
+   + mailer.py &rarr; _Connects with Mailgun API_
+   + run_script.py &rarr; _Gets automated jobs and defines functions for running automatically or manually _
+
+7. sql_scripts
     > Database Structure and SQL Scripts of Stored Procedures for target database 
     >> AWS-hosted MySQL Database
+    
     + all triggers.txt &rarr; _Contains all Triggers for MySQL RDBMS_
     + all_stored_procedure_&_function.txt &rarr; _Contains all Stored Procedure & Functions for MySQL RDBMS_
     + all_tables.txt &rarr; _Contains all tables for MySQL RDBMS_
     + all_view_tables.txt &rarr; _Contains all views for MySQL RDBMS_
-        >> my-sql
-    + All stored Procedure installed for MySQL Target Database
-        >> postgres
-    + All stored Procedure installed for PostgresSQL Target Database
-        >> - sql-server
-    + All stored Procedure installed for MS SQL Server Target Database
+
+   >> my-sql
+
+   + All stored Procedure installed for MySQL Target Database
+
+   >> postgres
+
+   + All stored Procedure installed for PostgresSQL Target Database
+
+   >>  sql-server
+
+   + All stored Procedure installed for MS SQL Server Target Database
