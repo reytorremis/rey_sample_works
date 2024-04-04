@@ -61,7 +61,7 @@ Feel free to browse.
 <a><img src="https://img.shields.io/badge/SQL-D9AA1D" /></a>
 <a><img src="https://img.shields.io/badge/Tableau%20Public-05058E" /></a>
 
-[Kevin's Cookie Company Analysis]([https://reytorremis.github.io/rey_sample_works/filipino_migration_analysis](https://reytorremis.github.io/rey_sample_works/kevin_cookie/))
+[Kevin's Cookie Company Analysis](https://reytorremis.github.io/rey_sample_works/kevin_cookie/)
 
 + A fictious cookie company wants to analyze their current data. This is demonstration of the presenting the data, visualizing it through PowerBI and analyzing it in excel.
 
