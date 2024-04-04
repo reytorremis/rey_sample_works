@@ -127,5 +127,5 @@ Feel free to browse.
 
 <a><img src="https://img.shields.io/badge/Excel%20and%20Spreadsheets-058E43" /></a>
 <a><img src="https://img.shields.io/badge/Google%20Looker%20Studio-01013C" /></a>
-<a><img src="https://img.shields.io/badge/Research-8D6F64C" /></a>
+<a><img src="https://img.shields.io/badge/Research-AC6B54C" /></a>
 ___
