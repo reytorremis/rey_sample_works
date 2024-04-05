@@ -45,4 +45,4 @@ This sectiion invovles Power BI data processing and visualization.
 
 #### Visualization
 
-!Covid Data Set](covid_data_set.png)
+![Covid Data Set](covid_data_set.png)
