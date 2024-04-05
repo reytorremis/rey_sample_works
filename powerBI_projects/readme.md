@@ -1,6 +1,6 @@
 # Rey's Sample Works - Power BI Projects
 
-<a href=""><img src="https://img.shields.io/badge/HOME%20GitHub-0068cb" /></a>
+<a href="https://reytorremis.github.io/rey_sample_works/"><img src="https://img.shields.io/badge/HOME-GitHub-blue" /></a>
 
 ## Description
 This sectiion invovles Power BI data processing and visualization.
